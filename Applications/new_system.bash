@@ -1,6 +1,6 @@
 echo ".dotfiles" >> .gitignore
 git clone --bare https://github.com/itzgoldenleonard/dotfiles .dotfiles
 echo 'alias config="git --git-dir=$HOME/.dotfiles --work-tree=$HOME"' >> ~/.bashrc
-config checkout -f master
-config config --local status.showUntrackedFiles no
+git --git-dir=$HOME/.dotfiles --work-tree=$HOME checkout -f master
+git --git-dir=$HOME/.dotfiles --work-tree=$HOME config --local status.showUntrackedFiles no
 
