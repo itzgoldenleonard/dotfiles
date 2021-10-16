@@ -5,5 +5,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'leafOfTree/vim-svelte-plugin'
     " TS syntax hightlighting
     Plug 'leafgarland/typescript-vim'
+    " Colorscheme
+    Plug 'dracula/vim', { 'as': 'dracula' }
 
 call plug#end()
+
+colorscheme dracula                     " Set the colorscheme to dracula

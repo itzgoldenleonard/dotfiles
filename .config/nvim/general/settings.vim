@@ -22,3 +22,15 @@ set updatetime=300                      " Faster completion
 set timeoutlen=500                      " By default timeoutlen is 1000 ms
 set clipboard=unnamedplus               " Copy paste between vim and everything else
 set foldmethod=indent                   " Set the global fold method to indent
+
+function! MyHighlights() abort
+    highlight Normal cterm=NONE ctermbg=NONE ctermfg=NONE   " make the background transparent
+    " I still need to figure out how to reset the color from folds and from
+    " the top bar
+endfunction
+
+augroup MyColors
+    autocmd!
+    autocmd ColorScheme * call MyHighlights()
+augroup END
+
