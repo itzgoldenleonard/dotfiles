@@ -11,5 +11,8 @@ Replace `$OSNAME` with the appropriate os name and say yes to any prompts
 
 
 Then do these things:
+- [ ] Update the fstab
+- [ ] Install proprietary NVIDIA driver
+- [ ] Set up fingerprints
 - [ ] Install nvim plugins with PlugInstall
 - [ ] Install and set up timeshift
