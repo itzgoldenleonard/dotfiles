@@ -15,87 +15,129 @@ IntensityEffect=2
 [ColorEffects:Inactive]
 ChangeSelectionColor=true
 Color=112,111,110
-ColorAmount=0.025000000000000001
+ColorAmount=0.025
 ColorEffect=2
-ContrastAmount=0.10000000000000001
+ContrastAmount=0.1
 ContrastEffect=2
 Enable=false
 IntensityAmount=0
 IntensityEffect=0
 
 [Colors:Button]
-BackgroundAlternate=64,69,82
-BackgroundNormal=40,42,54
-DecorationFocus=68,71,90
-DecorationHover=68,71,90
+BackgroundAlternate=30,87,116
+BackgroundNormal=49,54,59
+DecorationFocus=61,174,233
+DecorationHover=61,174,233
 ForegroundActive=61,174,233
-ForegroundInactive=102,106,115
-ForegroundLink=41,128,185
-ForegroundNegative=255,85,85
-ForegroundNeutral=255,184,108
-ForegroundNormal=248,248,242
-ForegroundPositive=80,250,122
-ForegroundVisited=82,148,226
+ForegroundInactive=161,169,177
+ForegroundLink=29,153,243
+ForegroundNegative=218,68,83
+ForegroundNeutral=246,116,0
+ForegroundNormal=252,252,252
+ForegroundPositive=39,174,96
+ForegroundVisited=155,89,182
+
+[Colors:Complementary]
+BackgroundAlternate=30,87,116
+BackgroundNormal=42,46,50
+DecorationFocus=61,174,233
+DecorationHover=61,174,233
+ForegroundActive=61,174,233
+ForegroundInactive=161,169,177
+ForegroundLink=29,153,243
+ForegroundNegative=218,68,83
+ForegroundNeutral=246,116,0
+ForegroundNormal=252,252,252
+ForegroundPositive=39,174,96
+ForegroundVisited=155,89,182
+
+[Colors:Header]
+BackgroundAlternate=42,46,50
+BackgroundNormal=49,54,59
+DecorationFocus=61,174,233
+DecorationHover=61,174,233
+ForegroundActive=61,174,233
+ForegroundInactive=161,169,177
+ForegroundLink=29,153,243
+ForegroundNegative=218,68,83
+ForegroundNeutral=246,116,0
+ForegroundNormal=252,252,252
+ForegroundPositive=39,174,96
+ForegroundVisited=155,89,182
+
+[Colors:Header][Inactive]
+BackgroundAlternate=49,54,59
+BackgroundNormal=42,46,50
+DecorationFocus=61,174,233
+DecorationHover=61,174,233
+ForegroundActive=61,174,233
+ForegroundInactive=161,169,177
+ForegroundLink=29,153,243
+ForegroundNegative=218,68,83
+ForegroundNeutral=246,116,0
+ForegroundNormal=252,252,252
+ForegroundPositive=39,174,96
+ForegroundVisited=155,89,182
 
 [Colors:Selection]
-BackgroundAlternate=29,153,243
-BackgroundNormal=68,71,90
-DecorationFocus=68,71,90
-DecorationHover=68,71,90
+BackgroundAlternate=30,87,116
+BackgroundNormal=61,174,233
+DecorationFocus=61,174,233
+DecorationHover=61,174,233
 ForegroundActive=252,252,252
-ForegroundInactive=211,218,227
+ForegroundInactive=161,169,177
 ForegroundLink=253,188,75
-ForegroundNegative=255,85,85
-ForegroundNeutral=255,184,108
-ForegroundNormal=254,254,254
-ForegroundPositive=80,250,122
-ForegroundVisited=189,195,199
+ForegroundNegative=176,55,69
+ForegroundNeutral=198,92,0
+ForegroundNormal=252,252,252
+ForegroundPositive=23,104,57
+ForegroundVisited=155,89,182
 
 [Colors:Tooltip]
-BackgroundAlternate=47,52,63
-BackgroundNormal=53,57,69
-DecorationFocus=68,71,90
-DecorationHover=68,71,90
+BackgroundAlternate=42,46,50
+BackgroundNormal=49,54,59
+DecorationFocus=61,174,233
+DecorationHover=61,174,233
 ForegroundActive=61,174,233
-ForegroundInactive=102,106,115
-ForegroundLink=41,128,185
-ForegroundNegative=255,85,85
-ForegroundNeutral=255,184,108
-ForegroundNormal=211,218,227
-ForegroundPositive=80,250,122
-ForegroundVisited=82,148,226
+ForegroundInactive=161,169,177
+ForegroundLink=29,153,243
+ForegroundNegative=218,68,83
+ForegroundNeutral=246,116,0
+ForegroundNormal=252,252,252
+ForegroundPositive=39,174,96
+ForegroundVisited=155,89,182
 
 [Colors:View]
-BackgroundAlternate=43,45,59
-BackgroundNormal=30,31,41
-DecorationFocus=68,71,90
-DecorationHover=68,71,90
-ForegroundActive=139,233,253
-ForegroundInactive=102,106,115
-ForegroundLink=82,148,226
-ForegroundNegative=255,85,85
-ForegroundNeutral=255,184,108
-ForegroundNormal=248,248,242
-ForegroundPositive=80,250,122
-ForegroundVisited=124,183,255
+BackgroundAlternate=35,38,41
+BackgroundNormal=27,30,32
+DecorationFocus=61,174,233
+DecorationHover=61,174,233
+ForegroundActive=61,174,233
+ForegroundInactive=161,169,177
+ForegroundLink=29,153,243
+ForegroundNegative=218,68,83
+ForegroundNeutral=246,116,0
+ForegroundNormal=252,252,252
+ForegroundPositive=39,174,96
+ForegroundVisited=155,89,182
 
 [Colors:Window]
-BackgroundAlternate=47,52,63
-BackgroundNormal=40,42,54
-DecorationFocus=68,71,90
-DecorationHover=68,71,90
-ForegroundActive=139,233,253
-ForegroundInactive=102,106,115
-ForegroundLink=41,128,185
-ForegroundNegative=255,85,85
-ForegroundNeutral=255,184,108
-ForegroundNormal=248,248,242
-ForegroundPositive=80,250,122
-ForegroundVisited=68,71,90
+BackgroundAlternate=49,54,59
+BackgroundNormal=42,46,50
+DecorationFocus=61,174,233
+DecorationHover=61,174,233
+ForegroundActive=61,174,233
+ForegroundInactive=161,169,177
+ForegroundLink=29,153,243
+ForegroundNegative=218,68,83
+ForegroundNeutral=246,116,0
+ForegroundNormal=252,252,252
+ForegroundPositive=39,174,96
+ForegroundVisited=155,89,182
 
 [DirSelect Dialog]
-DirSelectDialog Size=828,564
-History Items[$e]=file:$HOME/Videos/OBS recordings,file:$HOME/Videos/OBS recordings,file:$HOME/Videos/OBS recordings,file:$HOME/Downloads/Nextcloud tester,file:$HOME/Downloads/Dracula,file:$HOME/Downloads,file:$HOME/Videos/OBS recordings,file:///mnt/smb4k,file:///mnt/AS1002Tsmb,file:$HOME/VMs,file:$HOME/VMs,file:///mnt/WD-Black-HDD/VMs,file:///mnt/WD-Black-HDD/VMs/Manjaro Windows,file:///mnt/WD-Black-HDD/VMs/Manjaro windows,file:$HOME/Downloads/arc-kde-20180614/Kvantum/ArcDark,file:$HOME/Downloads/arc-kde-20180614/Kvantum,file:///mnt/AS1002T/Storage/Unsorted/Music/techno,file:///mnt/AS1002T/Storage/Unsorted/Music,file:///mnt/WD-Black-HDD/VMs/Minecraft server fr
+DirSelectDialog Size=840,596
+History Items[$e]=file:$HOME/Downloads/Test vault,file:$HOME/Music/Music,file:$HOME/Videos/OBS recordings,file:$HOME/Videos/OBS recordings,file:///mnt/smb4k,file:$HOME/Downloads,file:$HOME/Videos/OBS recordings,file:$HOME/Videos/OBS recordings,file:$HOME/Videos/OBS recordings,file:$HOME/Downloads/Nextcloud tester,file:$HOME/Downloads/Dracula,file:$HOME/Downloads,file:$HOME/Videos/OBS recordings,file:///mnt/AS1002Tsmb,file:$HOME/VMs,file:$HOME/VMs,file:///mnt/WD-Black-HDD/VMs,file:///mnt/WD-Black-HDD/VMs/Manjaro Windows,file:///mnt/WD-Black-HDD/VMs/Manjaro windows,file:$HOME/Downloads/arc-kde-20180614/Kvantum/ArcDark,file:$HOME/Downloads/arc-kde-20180614/Kvantum,file:///mnt/AS1002T/Storage/Unsorted/Music/techno,file:///mnt/AS1002T/Storage/Unsorted/Music,file:///mnt/WD-Black-HDD/VMs/Minecraft server fr
 
 [General]
 BrowserApplication=brave-browser.desktop
@@ -109,16 +151,14 @@ shadeSortColumn=true
 smallestReadableFont=Roboto,8,-1,5,50,0,0,0,0,0
 toolBarFont=Roboto,10,-1,5,50,0,0,0,0,0
 
-[Icons]
-Theme=dracula-icons-main
-
 [KDE]
 AnimationDurationFactor=0.7071067811865475
-LookAndFeelPackage=Dracula
+LookAndFeelPackage=org.kde.breezedark.desktop
 ScrollbarLeftClickNavigatesByPage=false
 ShowDeleteCommand=false
 SingleClick=false
 contrast=5
+widgetStyle=Breeze
 
 [KFileDialog Settings]
 Allow Expansion=false
@@ -137,7 +177,7 @@ Sort by=Name
 Sort directories first=true
 Sort reversed=false
 Speedbar Width=153
-View Style=DetailTree
+View Style=Detail
 
 [KShortcutsDialog Settings]
 Dialog Size=600,480
@@ -146,10 +186,10 @@ Dialog Size=600,480
 MaximumRemoteSize=0
 
 [WM]
-activeBackground=47,52,63
-activeBlend=47,52,63
+activeBackground=49,54,59
+activeBlend=252,252,252
 activeFont=Roboto,10,-1,5,50,0,0,0,0,0
-activeForeground=211,218,227
-inactiveBackground=47,52,63
-inactiveBlend=47,52,63
-inactiveForeground=102,106,115
+activeForeground=252,252,252
+inactiveBackground=42,46,50
+inactiveBlend=161,169,177
+inactiveForeground=161,169,177

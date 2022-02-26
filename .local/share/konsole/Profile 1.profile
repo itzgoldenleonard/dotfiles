@@ -1,5 +1,5 @@
 [Appearance]
-ColorScheme=Dracula
+ColorScheme=Breeze
 
 [General]
 Command=/usr/bin/fish
