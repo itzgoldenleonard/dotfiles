@@ -1,11 +1,11 @@
 " Ava Drumm dotfiles
 " https://github.com/itzgoldenleonard/dotfiles
 
-set number				" turn on line numbering
+set number				                " turn on line numbering
 set hidden                              " Required to keep multiple buffers open multiple buffers
 set encoding=utf-8                      " The encoding displayed
 set fileencoding=utf-8                  " The encoding written to file
-set mouse=a				" Enable mouse selection
+set mouse=a				                " Enable mouse selection
 set iskeyword+=-                      	" treat dash separated words as a word text object"
 set splitbelow                          " Horizontal splits will automatically be below
 set splitright                          " Vertical splits will automatically be to the right
@@ -22,3 +22,4 @@ set updatetime=300                      " Faster completion
 set timeoutlen=500                      " By default timeoutlen is 1000 ms
 set clipboard=unnamedplus               " Copy paste between vim and everything else
 set foldmethod=indent                   " Set the global fold method to indent
+

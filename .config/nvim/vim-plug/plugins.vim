@@ -9,9 +9,12 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'leafOfTree/vim-svelte-plugin'
     " TS syntax hightlighting
     Plug 'leafgarland/typescript-vim'
+    " Breeze colorscheme
+    Plug 'fneu/breezy'
 
 call plug#end()
 
 
 " Configure plugins
 source ~/.config/nvim/vim-plug/plug-config/svelte-config.vim
+source ~/.config/nvim/vim-plug/plug-config/breezy.vim
