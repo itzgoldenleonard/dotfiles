@@ -1,3 +1,6 @@
+" Ava Drumm dotfiles
+" https://github.com/itzgoldenleonard/dotfiles
+
 set termguicolors
 
 function! MyHighlights() abort
