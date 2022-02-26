@@ -3,7 +3,7 @@ To set up on a new computer type:
 wget -O - https://raw.githubusercontent.com/itzgoldenleonard/dotfiles/master/Applications/scripts/new_system.bash | bash
 ```
 
-Install nvim and fish with
+Install programs
 ```
 wget -O - https://raw.githubusercontent.com/itzgoldenleonard/dotfiles/master/Applications/scripts/$OSNAME.bash | bash
 ```
