@@ -1,0 +1,38 @@
+# Ava Drumm dotfiles
+# https://github.com/itzgoldenleonard/dotfiles
+
+[$Version]
+update_info=kwin.upd:enable-scale-effect-by-default
+
+[Compositing]
+OpenGLIsUnsafe=false
+
+[Desktops]
+Number=2
+Rows=2
+
+[Effect-DimInactive]
+Strength=10
+
+[Effect-PresentWindows]
+BorderActivateAll=9
+
+[Effect-kwin4_effect_scale]
+InScale=0.9
+OutScale=0.9
+
+[Effect-kwin4_effect_translucency]
+MoveResize=90
+
+[MouseBindings]
+CommandTitlebarWheel=Previous/Next Desktop
+
+[Plugins]
+diminactiveEnabled=true
+kwin4_effect_fadedesktopEnabled=true
+kwin4_effect_translucencyEnabled=true
+sheetEnabled=true
+slideEnabled=false
+
+[org.kde.kdecoration2]
+ButtonsOnLeft=M
