@@ -1,0 +1,12 @@
+# Ava Drumm dotfiles
+# https://github.com/itzgoldenleonard/dotfiles
+
+[Desktop Entry]
+DefaultProfile=zsh.profile
+
+[MainWindow]
+State=AAAA/wAAAAD9AAAAAQAAAAAAAAAAAAAAAPwCAAAAAfsAAAAcAFMAUwBIAE0AYQBuAGEAZwBlAHIARABvAGMAawAAAAAA/////wAAANUBAAADAAADjwAAAigAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAgAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAAAAAAD/////AAAAAAAAAAAAAAAcAHMAZQBzAHMAaQBvAG4AVABvAG8AbABiAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+
+[UiSettings]
+ColorScheme=Default
