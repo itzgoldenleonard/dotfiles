@@ -1,0 +1,39 @@
+# Ava Drumm dotfiles
+# https://github.com/itzgoldenleonard/dotfiles
+
+[General]
+AutoStart=true
+
+[General Settings]
+BigDuration=10
+BigInterval=60
+BigThreshold=10
+DisableAccel=true
+Effect=0
+ExpandImageToFullScreen=true
+Graylevel=80
+HideLockButton=false
+HideMinimizeButton=false
+HidePostponeButton=false
+ImageFolder=/home/ava
+Patience=30
+PostponeBreakDuration=5
+SearchRecursiveCheck=false
+ShowSmallImagesCheck=true
+SlideInterval=10
+TinyDuration=120
+TinyInterval=15
+TinyThreshold=120
+UseNoIdleTimer=false
+UsePlasmaReadOnly=true
+
+[Notification Messages]
+dont_show_welcome_again_for_001=false
+
+[Popup Settings]
+UseFlash=true
+UsePopup=true
+
+[SetupDimensions]
+DP-0 DP-3 Height 2560x1080=573
+DP-0 DP-3 Width 2560x1080=859

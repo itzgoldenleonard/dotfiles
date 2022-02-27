@@ -1,0 +1,23 @@
+# Ava Drumm dotfiles
+# https://github.com/itzgoldenleonard/dotfiles
+
+[Event/end long break]
+Action=Sound
+Execute=
+Logfile=
+Sound=/usr/share/sounds/Oxygen-Im-Highlight-Msg.ogg
+TTS=
+
+[Event/end short break]
+Action=Sound
+Execute=
+Logfile=
+Sound=/usr/share/sounds/Oxygen-Im-Highlight-Msg.ogg
+TTS=
+
+[Event/timers reset]
+Action=
+Execute=
+Logfile=
+Sound=
+TTS=
