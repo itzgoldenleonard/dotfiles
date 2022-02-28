@@ -31,6 +31,7 @@ CommandTitlebarWheel=Previous/Next Desktop
 diminactiveEnabled=true
 kwin4_effect_fadedesktopEnabled=true
 kwin4_effect_translucencyEnabled=true
+overviewEnabled=true
 sheetEnabled=true
 slideEnabled=false
 
