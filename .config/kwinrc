@@ -28,6 +28,7 @@ MoveResize=90
 CommandTitlebarWheel=Previous/Next Desktop
 
 [Plugins]
+desktopchangeosdEnabled=true
 diminactiveEnabled=true
 kwin4_effect_fadedesktopEnabled=true
 kwin4_effect_translucencyEnabled=true
