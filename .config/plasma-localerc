@@ -1,0 +1,8 @@
+# Ava Drumm dotfiles
+# https://github.com/itzgoldenleonard/dotfiles
+
+[Formats]
+LANG=en_US.UTF-8
+LC_MEASUREMENT=C
+LC_MONETARY=en_DK.UTF-8
+LC_TIME=en_DK.UTF-8
