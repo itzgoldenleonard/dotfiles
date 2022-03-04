@@ -136,10 +136,6 @@ ForegroundPositive=39,174,96
 ForegroundVisited=155,89,182
 
 [General]
-ColorScheme=BreezeDark
-ColorSchemeHash=9163139877916089673a361083a2231d380293d7
-XftHintStyle=hintslight
-XftSubPixel=rgb
 fixed=Roboto Mono [GOOG],10,-1,5,50,0,0,0,0,0
 font=Roboto,10,-1,5,50,0,0,0,0,0
 menuFont=Roboto,10,-1,5,50,0,0,0,0,0
@@ -149,31 +145,10 @@ toolBarFont=Roboto,9,-1,5,50,0,0,0,0,0
 [KDE]
 AnimationDurationFactor=0.7071067811865475
 LookAndFeelPackage=org.kde.breezedark.desktop
-widgetStyle=Breeze
-
-[KFileDialog Settings]
-Allow Expansion=false
-Automatically select filename extension=true
-Breadcrumb Navigation=false
-Decoration position=2
-LocationCombo Completionmode=5
-PathCombo Completionmode=5
-Show Bookmarks=false
-Show Full Path=false
-Show Inline Previews=true
-Show Preview=false
-Show Speedbar=true
-Show hidden files=false
-Sort by=Name
-Sort directories first=true
-Sort reversed=false
-Speedbar Width=138
-View Style=DetailTree
 
 [WM]
 activeBackground=49,54,59
 activeBlend=252,252,252
-activeFont=Roboto,10,-1,5,50,0,0,0,0,0
 activeForeground=252,252,252
 inactiveBackground=42,46,50
 inactiveBlend=161,169,177
