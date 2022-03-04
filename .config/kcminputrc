@@ -1,0 +1,7 @@
+# Ava Drumm dotfiles
+# https://github.com/itzgoldenleonard/dotfiles
+
+[Mouse]
+XLbInptAccelProfileFlat=true
+XLbInptPointerAcceleration=0.6
+cursorTheme=Adwaita
