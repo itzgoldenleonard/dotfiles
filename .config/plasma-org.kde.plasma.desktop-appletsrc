@@ -1,6 +1,3 @@
-# Ava Drumm dotfiles
-# https://github.com/itzgoldenleonard/dotfiles
-
 [ActionPlugins][0]
 RightButton;NoModifier=org.kde.contextmenu
 wheel:Vertical;NoModifier=org.kde.switchdesktop
@@ -9,8 +6,8 @@ wheel:Vertical;NoModifier=org.kde.switchdesktop
 RightButton;NoModifier=org.kde.contextmenu
 
 [Containments][1]
-ItemGeometries-2560x1080=Applet-98:79.8266,639.711,800,400,0;
-ItemGeometriesHorizontal=Applet-98:79.8266,639.711,800,400,0;
+ItemGeometries-2560x1080=Applet-98:79.9339,639.89,800,400,0;
+ItemGeometriesHorizontal=Applet-98:79.9339,639.89,800,400,0;
 activityId=2bf544a7-2800-40ed-809c-0221f906532e
 formfactor=0
 immutability=1
@@ -43,7 +40,7 @@ ToolBoxButtonState=topcenter
 ToolBoxButtonX=879
 
 [Containments][1][Wallpaper][org.kde.image][General]
-Image=file:///home/ava/.cache/superpaper/temp/example-b-crop-0.png
+Image=file:///home/ava/.cache/superpaper/temp/example-a-crop-0.png
 
 [Containments][2]
 ItemGeometries-1920x1080=
@@ -100,7 +97,7 @@ DialogWidth=720
 
 [Containments][70][Applets][72][Configuration][General]
 iconSize=huge
-launchers=preferred://browser,preferred://filemanager,applications:systemsettings.desktop,applications:org.kde.discover.desktop
+launchers=applications:firefox.desktop,preferred://filemanager,applications:systemsettings.desktop,applications:org.kde.discover.desktop
 
 [Containments][70][Applets][74]
 immutability=1
@@ -162,7 +159,7 @@ AppletOrder=75;72;74;77
 activityId=
 formfactor=3
 immutability=1
-lastScreen=3
+lastScreen=2
 location=6
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
@@ -258,7 +255,7 @@ AppletOrder=94;95;96;79
 activityId=
 formfactor=3
 immutability=1
-lastScreen=3
+lastScreen=2
 location=6
 plugin=org.kde.plasma.private.systemtray
 wallpaperplugin=org.kde.image
@@ -325,6 +322,20 @@ PreloadWeight=18
 [Containments][80][General]
 extraItems=org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.vault,org.kde.plasma.volume,org.kde.plasma.manage-inputmethod
 knownItems=org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.vault,org.kde.plasma.volume,org.kde.plasma.manage-inputmethod
+
+[Containments][99]
+ItemGeometries-1920x1080=
+ItemGeometriesHorizontal=
+activityId=2bf544a7-2800-40ed-809c-0221f906532e
+formfactor=0
+immutability=1
+lastScreen=2
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][99][Wallpaper][org.kde.image][General]
+Image=file:///home/ava/.cache/superpaper/temp/example-a-crop-1.png
 
 [Containments70Appletsts][72][Configuration][General]
 launchers=preferred://browser,preferred://filemanager,applications:systemsettings.desktop,applications:org.kde.discover.desktop
