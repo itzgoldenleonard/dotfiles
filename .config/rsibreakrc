@@ -6,7 +6,7 @@ AutoStart=true
 
 [General Settings]
 BigDuration=10
-BigInterval=60
+BigInterval=90
 BigThreshold=10
 DisableAccel=true
 Effect=0
@@ -21,9 +21,9 @@ PostponeBreakDuration=5
 SearchRecursiveCheck=false
 ShowSmallImagesCheck=true
 SlideInterval=10
-TinyDuration=120
-TinyInterval=15
-TinyThreshold=120
+TinyDuration=250
+TinyInterval=30
+TinyThreshold=250
 UseNoIdleTimer=false
 UsePlasmaReadOnly=true
 
@@ -35,5 +35,5 @@ UseFlash=true
 UsePopup=true
 
 [SetupDimensions]
-DP-0 DP-3 Height 2560x1080=573
-DP-0 DP-3 Width 2560x1080=859
+DP-0 DP-3 Height 2560x1080=551
+DP-0 DP-3 Width 2560x1080=534
