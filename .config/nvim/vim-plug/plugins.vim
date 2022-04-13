@@ -9,6 +9,12 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'leafOfTree/vim-svelte-plugin'
     " TS syntax hightlighting
     Plug 'leafgarland/typescript-vim'
+    " OpenSCAD syntax highlighting
+    Plug 'sirtaj/vim-openscad'
+
+
+    " Copilot
+    Plug 'github/copilot.vim'
     " Breeze colorscheme
     Plug 'fneu/breezy'
 
