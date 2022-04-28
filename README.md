@@ -1,11 +1,11 @@
 To set up on a new computer type:
 ```
-wget -O - https://raw.githubusercontent.com/itzgoldenleonard/dotfiles/master/Applications/scripts/new_system.bash | bash
+wget -O - https://raw.githubusercontent.com/itzgoldenleonard/dotfiles/breeze/bin/scripts/new_system.bash | bash
 ```
 
 Install programs
 ```
-wget -O - https://raw.githubusercontent.com/itzgoldenleonard/dotfiles/master/Applications/scripts/$OSNAME.bash | bash
+wget -O - https://raw.githubusercontent.com/itzgoldenleonard/dotfiles/breeze/bin/scripts/$OSNAME.bash | bash
 ```
 Replace `$OSNAME` with the appropriate os name and say yes to any prompts
 
