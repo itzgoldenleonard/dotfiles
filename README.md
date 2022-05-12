@@ -4,15 +4,17 @@ wget -O - https://raw.githubusercontent.com/itzgoldenleonard/dotfiles/breeze/bin
 ```
 
 Install programs
+
+For fedora
+
 ```
-wget -O - https://raw.githubusercontent.com/itzgoldenleonard/dotfiles/breeze/bin/scripts/$OSNAME.bash | bash
+sudo dnf install neovim zsh
 ```
-Replace `$OSNAME` with the appropriate os name and say yes to any prompts
 
 
 Then do these things:
-- [ ] Update the fstab
-- [ ] Install proprietary NVIDIA driver
+- [ ] Install proprietary NVIDIA driver <https://rpmfusion.org/Configuration>
 - [ ] Set up fingerprints
 - [ ] Install nvim plugins with PlugInstall
+- [ ] Change the default shell to zsh and install plugins with `.config/zsh/plugInstall.sh`
 - [ ] Install and set up timeshift
