@@ -11,4 +11,6 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 source ~/.config/zsh/aliases.zsh
+source ~/.config/zsh/plugins.zsh
+source ~/.config/zsh/prompt.zsh
 EDITOR=nvim
