@@ -13,6 +13,7 @@ sudo dnf install neovim zsh
 
 
 Then do these things:
+- [ ] Change `/etc/dnf/dnf.conf` to allow `max_parallel_downloads=>1` and `fastestmirror=True`
 - [ ] Install proprietary NVIDIA driver <https://rpmfusion.org/Configuration>
 - [ ] Set up fingerprints
 - [ ] Install nvim plugins with PlugInstall
