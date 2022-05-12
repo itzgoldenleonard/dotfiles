@@ -5,10 +5,10 @@ wheel:Vertical;NoModifier=org.kde.switchdesktop
 [ActionPlugins][1]
 RightButton;NoModifier=org.kde.contextmenu
 
-[Containments][1]
-ItemGeometries-2560x1080=Applet-98:79.9339,639.89,800,400,0;
-ItemGeometriesHorizontal=Applet-98:79.9339,639.89,800,400,0;
-activityId=2bf544a7-2800-40ed-809c-0221f906532e
+[Containments][100]
+ItemGeometries-2560x1080=Applet-103:79.9879,639.98,800,400,0;
+ItemGeometriesHorizontal=Applet-103:79.9879,639.98,800,400,0;
+activityId=97e72a98-549c-4eda-ab99-f6b57d96f10b
 formfactor=0
 immutability=1
 lastScreen=0
@@ -16,14 +16,15 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
-[Containments][1][Applets][98]
+[Containments][100][Applets][103]
 immutability=1
 plugin=org.kde.plasma.digitalclock
 
-[Containments][1][Applets][98][Configuration]
+[Containments][100][Applets][103][Configuration]
+PreloadWeight=55
 UserBackgroundHints=
 
-[Containments][1][Applets][98][Configuration][Appearance]
+[Containments][100][Applets][103][Configuration][Appearance]
 dateDisplayFormat=BelowTime
 dateFormat=longDate
 enabledCalendarPlugins=/usr/lib64/qt5/plugins/plasmacalendarplugins/pimevents.so
@@ -31,39 +32,21 @@ fontFamily=Carlito
 showSeconds=true
 use24hFormat=2
 
-[Containments][1][Applets][98][Configuration][ConfigDialog]
+[Containments][100][Applets][103][Configuration][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
 
-[Containments][1][General]
+[Containments][100][General]
 ToolBoxButtonState=topcenter
-ToolBoxButtonX=879
+ToolBoxButtonX=898
 
-[Containments][1][Wallpaper][org.kde.image][General]
-Image=file:///home/ava/.cache/superpaper/temp/example-a-crop-0.png
+[Containments][100][Wallpaper][org.kde.image][General]
+Image=file:///home/ava/.cache/superpaper/temp/forest-a-crop-0.png
 
-[Containments][2]
+[Containments][101]
 ItemGeometries-1920x1080=
 ItemGeometriesHorizontal=
-activityId=2bf544a7-2800-40ed-809c-0221f906532e
-formfactor=0
-immutability=1
-lastScreen=3
-location=0
-plugin=org.kde.plasma.folder
-wallpaperplugin=org.kde.image
-
-[Containments][2][General]
-ToolBoxButtonState=topcenter
-ToolBoxButtonX=559
-
-[Containments][2][Wallpaper][org.kde.image][General]
-Image=file:///home/ava/.cache/superpaper/temp/example-b-crop-1.png
-
-[Containments][23]
-ItemGeometries-1920x1080=
-ItemGeometriesHorizontal=
-activityId=2bf544a7-2800-40ed-809c-0221f906532e
+activityId=97e72a98-549c-4eda-ab99-f6b57d96f10b
 formfactor=0
 immutability=1
 lastScreen=1
@@ -71,12 +54,12 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
-[Containments][23][General]
+[Containments][101][General]
 ToolBoxButtonState=topcenter
-ToolBoxButtonX=559
+ToolBoxButtonX=578
 
-[Containments][23][Wallpaper][org.kde.image][General]
-Image=file:///home/ava/.cache/superpaper/temp/example-a-crop-1.png
+[Containments][101][Wallpaper][org.kde.image][General]
+Image=file:///home/ava/.cache/superpaper/temp/forest-a-crop-1.png
 
 [Containments][70]
 activityId=
@@ -137,7 +120,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][70][Applets][77][Configuration]
-PreloadWeight=60
+PreloadWeight=70
 
 [Containments][70][Applets][77][Configuration][Appearance]
 dateFormat=isoDate
@@ -150,7 +133,7 @@ DialogWidth=720
 
 [Containments][70][ConfigDialog]
 DialogHeight=1080
-DialogWidth=168
+DialogWidth=161
 
 [Containments][70][General]
 AppletOrder=75;72;74;77
@@ -159,7 +142,7 @@ AppletOrder=75;72;74;77
 activityId=
 formfactor=3
 immutability=1
-lastScreen=2
+lastScreen=1
 location=6
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
@@ -177,7 +160,7 @@ immutability=1
 plugin=org.kde.plasma.systemmonitor
 
 [Containments][78][Applets][94][Configuration]
-PreloadWeight=60
+PreloadWeight=65
 
 [Containments][78][Applets][94][Configuration][Appearance]
 chartFace=org.kde.ksysguard.piechart
@@ -255,7 +238,7 @@ AppletOrder=94;95;96;79
 activityId=
 formfactor=3
 immutability=1
-lastScreen=2
+lastScreen=1
 location=6
 plugin=org.kde.plasma.private.systemtray
 wallpaperplugin=org.kde.image
@@ -317,25 +300,11 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][80][Applets][96][Configuration]
-PreloadWeight=18
+PreloadWeight=10
 
 [Containments][80][General]
 extraItems=org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.vault,org.kde.plasma.volume,org.kde.plasma.manage-inputmethod
 knownItems=org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.vault,org.kde.plasma.volume,org.kde.plasma.manage-inputmethod
-
-[Containments][99]
-ItemGeometries-1920x1080=
-ItemGeometriesHorizontal=
-activityId=2bf544a7-2800-40ed-809c-0221f906532e
-formfactor=0
-immutability=1
-lastScreen=2
-location=0
-plugin=org.kde.plasma.folder
-wallpaperplugin=org.kde.image
-
-[Containments][99][Wallpaper][org.kde.image][General]
-Image=file:///home/ava/.cache/superpaper/temp/example-a-crop-1.png
 
 [Containments70Appletsts][72][Configuration][General]
 launchers=preferred://browser,preferred://filemanager,applications:systemsettings.desktop,applications:org.kde.discover.desktop
